@@ -3,7 +3,7 @@
 //
 //  Created by Andrew Carter on 11/9/11.
 
-#import "UIView+Helpers.h"
+#import "UIView+JZLayout.h"
 
 #import <QuartzCore/QuartzCore.h>
 
@@ -12,7 +12,7 @@
 static inline CGRect CGRectRound(CGRect rect) {return CGRectMake((NSInteger)rect.origin.x, (NSInteger)rect.origin.y, (NSInteger)rect.size.width, (NSInteger)rect.size.height); }
 static NSString * const UIVIEW_HELPERS_FRAME_KVO_KEY = @"frame";
 
-@implementation UIView (Helpers)
+@implementation UIView (JZLayout)
 
 #pragma mark -
 #pragma mark Init

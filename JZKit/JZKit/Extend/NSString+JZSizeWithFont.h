@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
-@interface NSString (SizeWithFont)
+@interface NSString (JZSizeWithFont)
 - (CGSize)commonSizeWithFont:(UIFont *)font;
 - (CGSize)commonSizeWithFont:(UIFont *)font constrainedToSize:(CGSize)size;
 @end

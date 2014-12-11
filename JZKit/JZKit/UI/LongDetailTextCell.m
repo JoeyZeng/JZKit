@@ -7,8 +7,8 @@
 //
 
 #import "LongDetailTextCell.h"
-#import "NSString+SizeWithFont.h"
-#import "UIView+Helpers.h"
+#import "NSString+JZSizeWithFont.h"
+#import "UIView+JZLayout.h"
 
 @implementation LongDetailTextCell
 

@@ -11,7 +11,7 @@
 typedef void (^UIActionSheetBlock) (UIActionSheet *actionSheet);
 typedef void (^UIActionSheetCompletionBlock) (UIActionSheet *actionSheet, NSInteger buttonIndex);
 
-@interface UIActionSheet (Blocks)
+@interface UIActionSheet (JZBlocks)
 
 + (void)showFromTabBar:(UITabBar *)tabBar
              withTitle:(NSString *)title

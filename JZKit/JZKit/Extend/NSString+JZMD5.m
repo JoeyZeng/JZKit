@@ -2,11 +2,11 @@
 //  NSString+MD5.m
 
 
-#import "NSString+MD5.h"
+#import "NSString+JZMD5.h"
 #import <CommonCrypto/CommonDigest.h>
 
 
-@implementation NSString (MD5)
+@implementation NSString (JZMD5)
 
 - (NSString *)md5String {
 	const char *source = [self UTF8String];

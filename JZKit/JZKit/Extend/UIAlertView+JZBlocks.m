@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Ryan Maxwell. All rights reserved.
 //
 
-#import "UIAlertView+Blocks.h"
+#import "UIAlertView+JZBlocks.h"
 
 #import <objc/runtime.h>
 
@@ -20,7 +20,7 @@ static const void *UIAlertViewDidDismissBlockKey                    = &UIAlertVi
 static const void *UIAlertViewCancelBlockKey                        = &UIAlertViewCancelBlockKey;
 static const void *UIAlertViewShouldEnableFirstOtherButtonBlockKey  = &UIAlertViewShouldEnableFirstOtherButtonBlockKey;
 
-@implementation UIAlertView (Blocks)
+@implementation UIAlertView (JZBlocks)
 
 + (void)showWithTitle:(NSString *)title
               message:(NSString *)message

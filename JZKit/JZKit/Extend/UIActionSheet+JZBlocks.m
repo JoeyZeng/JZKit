@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Ryan Maxwell. All rights reserved.
 //
 
-#import "UIActionSheet+Blocks.h"
+#import "UIActionSheet+JZBlocks.h"
 
 #import <objc/runtime.h>
 
@@ -23,7 +23,7 @@ static const void *UIActionSheetCancelBlockKey      = &UIActionSheetCancelBlockK
 // This is a hack to turn an array into a variable argument list. There is no good way to expand arrays into variable argument lists in Objective-C. This works by nil-terminating the list as soon as we overstep the bounds of the array. The obvious glitch is that we only support a finite number of buttons.
 #define NSArrayToVariableArgumentsList(__ARRAYNAME__) NSArrayObjectMaybeNil(__ARRAYNAME__, 0), NSArrayObjectMaybeNil(__ARRAYNAME__, 1), NSArrayObjectMaybeNil(__ARRAYNAME__, 2), NSArrayObjectMaybeNil(__ARRAYNAME__, 3), NSArrayObjectMaybeNil(__ARRAYNAME__, 4), NSArrayObjectMaybeNil(__ARRAYNAME__, 5), NSArrayObjectMaybeNil(__ARRAYNAME__, 6), NSArrayObjectMaybeNil(__ARRAYNAME__, 7), NSArrayObjectMaybeNil(__ARRAYNAME__, 8), NSArrayObjectMaybeNil(__ARRAYNAME__, 9), nil
 
-@implementation UIActionSheet (Blocks)
+@implementation UIActionSheet (JZBlocks)
 
 + (void)showFromTabBar:(UITabBar *)tabBar
              withTitle:(NSString *)title

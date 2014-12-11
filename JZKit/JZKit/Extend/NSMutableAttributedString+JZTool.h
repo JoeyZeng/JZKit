@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface NSMutableAttributedString (Attributes)
+@interface NSMutableAttributedString (JZTool)
 - (void)addColor:(UIColor *)color substring:(NSString *)substring;
 - (void)addBackgroundColor:(UIColor *)color substring:(NSString *)substring;
 - (void)addUnderlineForSubstring:(NSString *)substring;
@@ -23,7 +23,7 @@
 - (void)addVerticalGlyph:(BOOL)glyph substring:(NSString *)substring;
 @end
 
-@interface NSString (Russian)
+@interface NSString (JZTool)
 - (BOOL)hasRussianCharacters;
 - (BOOL)hasEnglishCharacters;
 @end

@@ -11,7 +11,7 @@
 typedef void (^UIAlertViewBlock) (UIAlertView *alertView);
 typedef void (^UIAlertViewCompletionBlock) (UIAlertView *alertView, NSInteger buttonIndex);
 
-@interface UIAlertView (Blocks)
+@interface UIAlertView (JZBlocks)
 
 + (void)showWithTitle:(NSString *)title
               message:(NSString *)message

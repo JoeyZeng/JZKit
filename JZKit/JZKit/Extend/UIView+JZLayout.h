@@ -1,5 +1,5 @@
 //
-//  UIView+Helpers.h
+//  UIView+JZLayout.h
 //
 //  Created by Andrew Carter on 11/9/11.
 /*
@@ -7,7 +7,7 @@
  */
 #import <UIKit/UIKit.h>
 
-@interface UIView (Helpers)
+@interface UIView (JZLayout)
 
 typedef NS_ENUM(NSUInteger, UIViewAlignment)
 {

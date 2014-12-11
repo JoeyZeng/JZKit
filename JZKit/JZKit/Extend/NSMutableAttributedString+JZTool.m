@@ -5,7 +5,7 @@
 //  Created by Dmitry Shmidt on 7/26/13.
 //  Copyright (c) 2013 Shmidt Lab. All rights reserved.
 //
-#import "NSMutableAttributedString+Attributes.h"
+#import "NSMutableAttributedString+JZTool.h"
 @interface NSString(MASAttributes)
 -(NSRange)rangeOfStringNoCase:(NSString*)s;
 @end
@@ -16,7 +16,7 @@
     return  [self rangeOfString:s options:NSCaseInsensitiveSearch];
 }
 @end
-@implementation NSMutableAttributedString (Attributes)
+@implementation NSMutableAttributedString (JZTool)
 - (void)addColor:(UIColor *)color substring:(NSString *)substring{
     NSRange range = [self.string rangeOfStringNoCase:substring];
     if (range.location != NSNotFound && color != nil) {
@@ -135,7 +135,7 @@
 
 @end
 
-@implementation NSString (Russian)
+@implementation NSString (JZTool)
 - (BOOL)hasRussianCharacters{
     NSCharacterSet * set = [NSCharacterSet characterSetWithCharactersInString:@"абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"];
     return [self rangeOfCharacterFromSet:set].location != NSNotFound;

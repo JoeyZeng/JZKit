@@ -6,9 +6,9 @@
 //  Copyright (c) 2014年 Lin Dongpeng. All rights reserved.
 //
 
-#import "NSString+SizeWithFont.h"
+#import "NSString+JZSizeWithFont.h"
 
-@implementation NSString (SizeWithFont)
+@implementation NSString (JZSizeWithFont)
 
 
 - (CGSize)commonSizeWithFont:(UIFont *)font

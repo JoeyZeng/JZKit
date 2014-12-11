@@ -9,7 +9,7 @@
 #import "FDDUITableViewCell.h"
 #import "UIImage+Tint.h"
 #import "UtilityMacro.h"
-#import "UIView+Helpers.h"
+#import "UIView+JZLayout.h"
 
 @implementation FDDUITableViewCell
 {

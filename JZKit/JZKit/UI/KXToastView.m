@@ -8,7 +8,7 @@
 
 #import "KXToastView.h"
 #import <QuartzCore/QuartzCore.h>
-#import "NSString+SizeWithFont.h"
+#import "NSString+JZSizeWithFont.h"
 //#import "DataDef.h"
 
 

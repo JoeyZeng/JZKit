@@ -6,8 +6,8 @@
 //  Copyright 2011 Aurora Apps. All rights reserved.
 //
 
-#import "UIDevice+IdentifierAddition.h"
-#import "NSString+MD5.h"
+#import "UIDevice+JZIdentifierAddition.h"
+#import "NSString+JZMD5.h"
 
 #include <sys/socket.h> // Per msqr
 #include <sys/sysctl.h>
@@ -20,7 +20,7 @@
 
 @end
 
-@implementation UIDevice (IdentifierAddition)
+@implementation UIDevice (JZIdentifierAddition)
 
 ////////////////////////////////////////////////////////////////////////////////
 #pragma mark -
